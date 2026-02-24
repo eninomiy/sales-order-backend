@@ -2,7 +2,7 @@
     "name": "sales-order-backend",
     "version": "1.0.0",
     "description": "A simple CAP project",
-    "repository": "<Add your repository here>",
+    "repository": "<acrescente o nome do seu repositório aqui>",
     "license": "UNLICENSED",
     "private": "true",
     "dependencies": {
