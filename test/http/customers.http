@@ -53,3 +53,18 @@ Content-Type: application/json
 
 GET http://{{localhost}}/Customers?$search=25
 Content-Type: application/json
+
+
+###
+
+# Ordenando dados com $orderby crescente (asc)
+
+GET http://{{localhost}}/Customers?$orderby=firstName
+Content-Type: application/json
+
+###
+
+# Ordenando dados com $orderby decrescente (desc)
+
+GET http://{{localhost}}/Customers?$orderby=firstName desc,lastName desc
+Content-Type: application/json
