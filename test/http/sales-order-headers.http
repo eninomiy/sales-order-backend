@@ -78,3 +78,9 @@ Content-Type: application/json
 
 GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 2332241572236.75&$expand=items($expand=product;$filter=quantity le 39),customer
 Content-Type: application/json
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$select=customer&$expand=customer($select=email)
+Content-Type: application/json
