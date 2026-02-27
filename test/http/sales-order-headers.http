@@ -47,3 +47,34 @@ Content-Type: application/json
 {
     "modifiedBy": "teste"
 }
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 2332241572236.75
+Content-Type: application/json
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount le 2332241572236.75
+Content-Type: application/json
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$expand=items($expand=product),customer
+Content-Type: application/json
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 2332241572236.75&$expand=items($expand=product),customer
+Content-Type: application/json
+
+
+
+###
+
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 2332241572236.75&$expand=items($expand=product;$filter=quantity le 39),customer
+Content-Type: application/json
