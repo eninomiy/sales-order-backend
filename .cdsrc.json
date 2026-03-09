@@ -20,7 +20,7 @@
                     },
                     "edu": {
                         "password": "Inicial@12345",
-                        "roles": ["read_only_user"],
+                        "roles": ["read_only_users"],
                         "attr" : {
                             "id": 2,
                             "groups": ["grupo1"]
