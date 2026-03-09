@@ -24,14 +24,14 @@ Authorization: Basic edu:Inicial@12345
             "header": "{{id}}",
             "product": "{{productId1}}",
             "quantity": 10,
-            "price": 2.99
+            "price": 1000
         },
         {
             "Id": "7fc59a33-dbc2-45d7-8f1f-85a292a7bc06",
             "header": "{{id}}",
             "product": "{{productId2}}",
             "quantity": 5,
-            "price": 1.99
+            "price": 5000
         }
     ]
 }
